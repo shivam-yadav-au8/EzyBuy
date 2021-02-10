@@ -1,0 +1,41 @@
+.ps
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .ips
+    {
+        width: 90%;
+       
+    // display: flex;
+    // justify-content: center;
+    // align-items: center;
+    .btr
+    {
+        padding: 3% 0% 3% 0%;
+    }
+    .row-top
+    {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-around;
+       
+        .col1
+        {
+            width: 30%;
+        }
+        .col2
+        {
+            width: 40%;
+            .sm1
+            {
+                width: 80%;
+            }
+            
+        }
+
+    }
+}
+}

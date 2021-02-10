@@ -1,0 +1,156 @@
+.register{
+    // background-image: radial-gradient(circle, #6b6969, #7c7272, #665d5d,#524d4d,#575050,#302d2d, #382e2e, #222020, #292727, #362f2f, #2F2F2F, #242323);
+    background-image: url('https://res.cloudinary.com/dtrx9n8hl/image/upload/v1611009648/e-com/26679_iqcw7q.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    .box
+    {
+        display: flex;
+        justify-content: center;
+        width: 80%;
+        height: 80%;
+        background-image: url('https://res.cloudinary.com/dtrx9n8hl/image/upload/v1611010639/e-com/2541_mvet9z.png');
+        background-size: cover;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
+        0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25),
+        0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25),
+        0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25),
+        0px 4px 4px rgba(0, 0, 0, 0.25);
+      border-radius: 40px;
+      display: flex;
+      justify-content: space-between;
+      flex-direction: row;
+      align-items: center;
+      .left
+      {
+        width: 40%;
+        height: 80%;
+        display: flex;
+        flex-direction: row;
+        justify-content:flex-end;
+        align-items: center;
+      }
+      .right
+      {
+        width: 60%;
+        height: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+      }
+    }
+ 
+}
+input {
+    height: 15px;
+    width: 100%;
+    outline: none;
+    border: 1px solid grey;
+    border-radius: 45px;
+    
+    // padding: 5px;
+    margin-bottom: 30px;
+    transition: 0.2s;
+    font-size: 16px;
+    padding: 20px;
+    color: rgba(0, 0, 0, 0.712);
+}
+input:hover {
+    border: 2px solid #ff8080;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
+        0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25),
+        0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25),
+        0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25),
+        0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+input::placeholder {
+    text-transform: uppercase;
+    // padding-left: 10px;
+    font-size: 12px;
+}
+input[type="submit"] {
+    height: 50px;
+    font-size: 14px;
+    color: #fff;
+    margin-left: 65px;
+    margin-top: 20px;
+    background:#EA1B35;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    width: 50%;
+    transition: 0.2s;
+}
+ input[type="submit"]:hover {
+    font-size: 15px;
+    border: 0;
+    // width: 60%;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25),
+        0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25),
+        0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.link
+{
+  padding-left:40px;
+}
+.google-button {
+  height: 40px;
+  border-width: 0;
+  background: white;
+  color: #737373;
+  border-radius: 20px;
+  white-space: nowrap;
+  box-shadow: 1px 1px 0px 1px rgba(0,0,0,0.05);
+  transition-property: background-color, box-shadow;
+  transition-duration: 150ms;
+  transition-timing-function: ease-in-out;
+  margin-top: -60px;
+  margin-left: 50px;
+  padding: 0;
+  
+  &:focus,
+  &:hover {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25),
+    0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25),
+    0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  
+  &:active {
+    background-color: #e5e5e5;
+    box-shadow: none;
+    transition-duration: 10ms;
+  }
+}
+    
+.google-button__icon {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 8px 0 8px 8px;
+  width: 18px;
+  height: 18px;
+  box-sizing: border-box;
+}
+
+.google-button__icon--plus {
+  width: 27px;
+}
+
+.google-button__text {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 0 24px;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: 'Roboto',arial,sans-serif;
+}
+
+
+button ~ button {
+  margin-left: 20px;
+}
